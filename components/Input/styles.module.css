@@ -1,0 +1,39 @@
+.inputContainer {
+  background: var(--background-500);
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.iconBox svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.input {
+  margin-left: 1rem;
+  width: 100%;
+
+  outline: none;
+  border: none;
+
+  border-radius: 0.25rem;
+  background: var(--background-500);
+}
+
+.togglePassword {
+  outline: none;
+  border: none;
+  font-size: 0;
+  background: none;
+
+  cursor: pointer;
+}
+
+.togglePassword svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.enter {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.58rem;
+  margin-top: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  background: var(--background-700);
+  padding: 4rem;
+  border-radius: 0.75rem;
+}
+
+.form>div {
+  margin-top: 2rem;
+}
+
+.form>div+div {
+  margin-top: 1rem;
+}
+
+.form>button {
+  margin-top: 2rem;
+}
